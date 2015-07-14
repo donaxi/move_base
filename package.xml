@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>joy_translate</name>
+  <version>0.0.1</version>
+  <description>Node in charge of translating the joystick input into linear and angular vels, publishes in topic "/cmd_vel"</description>
+
+  <maintainer email="alvaroubravo@gmail.com">Alvaro Bravo</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>joy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>turtlesim</build_depend>
+  <run_depend>joy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>turtlesim</run_depend>
+
+</package>
